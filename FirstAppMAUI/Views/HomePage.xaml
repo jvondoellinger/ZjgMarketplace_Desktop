@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstAppMAUI.Views.HomePage"
+             Title="HomePage">
+    <HorizontalStackLayout 
+        VerticalOptions="Start"
+        HorizontalOptions="Center">
+        <Grid
+            HorizontalOptions="Center"
+            VerticalOptions="Start">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Entry 
+                Placeholder="Search product:" 
+                MinimumWidthRequest="255"
+                MaximumWidthRequest="255"
+                Margin="12"
+                VerticalOptions="Start"
+                HorizontalOptions="Center"
+                ClearButtonVisibility="WhileEditing"/>
+
+        </Grid>
+
+    </HorizontalStackLayout>
+    
+    
+</ContentPage>

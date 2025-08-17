@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstAppMAUI.Views.LoginPage"
+             Title="Login/Signup"
+             >
+    <VerticalStackLayout Padding="100">
+        <Label 
+            Text="Login:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="12"/>
+        <Entry
+            x:Name="EmailInputView"
+            Placeholder="Email: (ex: your@email.com)"
+            MinimumWidthRequest="255"
+            MaximumWidthRequest="255"
+            VerticalOptions="Center"
+            SelectionLength="255"
+            Margin="12"
+            HorizontalOptions="Center"/>
+        <Entry
+            x:Name="PasswordInputView"
+            Placeholder="Password"
+            MinimumWidthRequest="255"
+            MaximumWidthRequest="255"
+            VerticalOptions="Center"
+            IsPassword="True"
+            Margin="12"
+            HorizontalOptions="Center"/>
+        <Button
+            x:Name="SendLoginInputView"
+            Text="Send data"
+            MinimumWidthRequest="255"
+            VerticalOptions="Center"
+            Margin="12"
+            BackgroundColor="Blue"
+            Clicked="SendLoginInputViewClicked"
+            HorizontalOptions="Center"/>
+        <Grid 
+            x:Name="LoadingGrid" 
+            IsVisible="false" 
+            Opacity="0.6"
+            VerticalOptions="Center"
+            HorizontalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <Label
+                Text="Validando dados de acesso..." 
+                Grid.Row="0"/>
+
+            <ActivityIndicator
+                x:Name="LoadingIndicator"
+                IsRunning="False" 
+                Color="Blue"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="1"/>
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>
