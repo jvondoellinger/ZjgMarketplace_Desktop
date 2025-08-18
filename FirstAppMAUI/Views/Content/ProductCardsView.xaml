@@ -14,7 +14,6 @@
                 ItemsSource="{Binding Paths.Paths}"
                 HeightRequest="150"
                 WidthRequest="150"
-                ItemsLayout="HorizontalList"
                 VerticalScrollBarVisibility="Always">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
@@ -31,6 +30,11 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
+            <Label
+                x:Name="ProductIdentifierView"
+                Text="{Binding Id}"
+                IsEnabled="False"
+                IsVisible="False"/>
             <Label 
                 x:Name="ProductTitleView"
                 Text="{Binding Title}"
@@ -38,12 +42,13 @@
                 FontAttributes="Bold"/>
             <Label
                 x:Name="ProductAmountView"
-                Text="{Binding Amount}"
-                TextColor="Black"
-                BackgroundColor="Green"
+                Text="{Binding Amount, StringFormat='Price: {0:C}'}"
+                TextColor="Green"
                 FontSize="14"/>
+
             <Button 
                 x:Name="AddProductOnCart"
+                Clicked="AddProductOnCart_Clicked"
                 Text="Add to cart"
                 BackgroundColor="Blue"
                 TextColor="White"/>

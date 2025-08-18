@@ -5,5 +5,6 @@ public partial class SearchHeaderView : ContentView
 	public SearchHeaderView()
 	{
 		InitializeComponent();
-	}
+
+    }
 }

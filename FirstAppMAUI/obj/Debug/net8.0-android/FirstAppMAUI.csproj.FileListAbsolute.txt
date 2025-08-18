@@ -525,7 +525,6 @@ C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\a
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\AndroidManifest.xml
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\AndroidManifest.xml
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -535,7 +534,6 @@ C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\a
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\static.flag
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\__environment__.txt
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\buildid.txt
-C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -1034,13 +1032,6 @@ C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\a
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\bin\packaged_resources
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\src\com\companyname\firstappmaui\R.java
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\_CompileJava.FileList.txt
-C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
-C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
-C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
-C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
-C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
-C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
-C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\bin\classes.dex
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\bin\classes2.dex
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -1057,3 +1048,12 @@ C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\bin\Debug\net8.0-android\F
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\bin\Debug\net8.0-android\FirstAppMaui.Core.pdb
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\assets\FirstAppMaui.Core.dll
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\assets\FirstAppMaui.Core.pdb
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so

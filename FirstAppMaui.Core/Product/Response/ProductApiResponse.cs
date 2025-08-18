@@ -15,7 +15,8 @@ namespace FirstAppMaui.Core.Product.Response
             {
                 var p = new ProductApiResponse
                 {
-                    Title = i.ToString(),
+                    Id = i.ToString(),
+                    Title = $"Titulo - Iteração: {i.ToString()}",
                     Description = $"Description to: {i.ToString()}",
                     Amount = decimal.Parse("123"),
                     Paths = new ImagePaths()
@@ -29,6 +30,7 @@ namespace FirstAppMaui.Core.Product.Response
         }
 
         // Properties 
+        public string Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public decimal Amount { get; set; }

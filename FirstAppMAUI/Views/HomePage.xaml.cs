@@ -9,7 +9,7 @@ public partial class HomePage : ContentPage
 	public ObservableCollection<ProductApiResponse> Products { get; set; } = new ObservableCollection<ProductApiResponse>(ProductApiResponse.Get());
     public HomePage()
 	{
-		InitializeComponent();
+        InitializeComponent();
 		BindingContext = this;
 	}
 }

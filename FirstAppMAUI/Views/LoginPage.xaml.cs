@@ -3,8 +3,8 @@ namespace FirstAppMAUI.Views;
 public partial class LoginPage : ContentPage
 {
     private string? _username;
-    private readonly string _email = "ads";
-    private readonly string _password = "123";
+    private readonly string _email = "jorge";
+    private readonly string _password = "batata";
 	public LoginPage()
 	{
         InitializeComponent();
@@ -13,6 +13,10 @@ public partial class LoginPage : ContentPage
     private async void SendLoginInputViewClicked(object sender, EventArgs e)
     {
         _username = await DisplayPromptAsync("Testing prompt", "Digite seu nome:");
+        if (string.IsNullOrWhiteSpace(_username)) {
+            await DisplayAlert("Invalid username", "Please, send a valid username!", "OK");
+            return;
+        }
         if (LoadingIndicator.IsRunning) return;
         
         // Show loading indicator
