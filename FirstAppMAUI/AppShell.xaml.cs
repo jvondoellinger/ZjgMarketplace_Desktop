@@ -1,4 +1,6 @@
-﻿namespace FirstAppMAUI
+﻿using FirstAppMAUI.Views;
+
+namespace FirstAppMAUI
 {
     public partial class AppShell : Shell
     {

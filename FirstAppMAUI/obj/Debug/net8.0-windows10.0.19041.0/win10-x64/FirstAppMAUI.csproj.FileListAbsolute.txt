@@ -177,3 +177,6 @@ C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-windows10
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FirstAppMAUI.sourcelink.json
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FirstAppMaui.Core.dll
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FirstAppMaui.Core.pdb

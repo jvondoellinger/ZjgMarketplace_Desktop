@@ -136,6 +136,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Controls.resources.dll",
 		"Microsoft.Maui.Controls.resources.dll",
 		"Microsoft.Maui.Controls.resources.dll",
+		"FirstAppMaui.Core.dll",
 		"Microsoft.Maui.Controls.HotReload.Forms.dll",
 		"Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll",
 		"Microsoft.VisualStudio.DesignTools.TapContract.dll",

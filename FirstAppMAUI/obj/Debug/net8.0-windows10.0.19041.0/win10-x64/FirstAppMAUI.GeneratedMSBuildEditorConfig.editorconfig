@@ -52,6 +52,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = FirstAppMAUI.Resources.Sty
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/jorge/source/repos/FirstAppMAUI/FirstAppMAUI/Views/Content/ProductCardsView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FirstAppMAUI.Views.Content.ProductCardsView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Content\ProductCardsView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Content\ProductCardsView.xaml
+
+[C:/Users/jorge/source/repos/FirstAppMAUI/FirstAppMAUI/Views/Content/SearchHeaderView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FirstAppMAUI.Views.Content.SearchHeaderView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Content\SearchHeaderView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Content\SearchHeaderView.xaml
+
 [C:/Users/jorge/source/repos/FirstAppMAUI/FirstAppMAUI/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FirstAppMAUI.Views.HomePage.xaml

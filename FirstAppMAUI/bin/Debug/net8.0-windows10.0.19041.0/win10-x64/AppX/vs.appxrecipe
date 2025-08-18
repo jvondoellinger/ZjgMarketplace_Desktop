@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-08-18T01:13:49.077</Modified>
+      <Modified>2025-08-18T04:41:05.952</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-08-18T01:13:48.864</Modified>
+      <Modified>2025-08-18T04:18:51.333</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FirstAppMAUI.runtimeconfig.json">
       <PackagePath>FirstAppMAUI.runtimeconfig.json</PackagePath>
-      <Modified>2025-08-17T07:53:48.407</Modified>
+      <Modified>2025-08-18T03:58:43.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FirstAppMAUI.dll">
       <PackagePath>FirstAppMAUI.dll</PackagePath>
-      <Modified>2025-08-18T01:13:47.939</Modified>
+      <Modified>2025-08-18T04:41:05.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FirstAppMAUI.exe</PackagePath>
-      <Modified>2025-08-18T01:13:47.976</Modified>
+      <Modified>2025-08-18T04:41:05.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FirstAppMAUI.deps.json">
       <PackagePath>FirstAppMAUI.deps.json</PackagePath>
-      <Modified>2025-08-18T01:13:48.705</Modified>
+      <Modified>2025-08-18T04:18:51.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -572,6 +572,10 @@
     <AppxPackagedFile Include="C:\Users\jorge\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\bin\Debug\net8.0\FirstAppMaui.Core.dll">
+      <PackagePath>FirstAppMaui.Core.dll</PackagePath>
+      <Modified>2025-08-18T04:41:01.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jorge\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
