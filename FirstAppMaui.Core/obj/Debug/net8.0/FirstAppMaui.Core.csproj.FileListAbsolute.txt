@@ -1,0 +1,12 @@
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\bin\Debug\net8.0\FirstAppMaui.Core.deps.json
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\bin\Debug\net8.0\FirstAppMaui.Core.dll
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\bin\Debug\net8.0\FirstAppMaui.Core.pdb
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\obj\Debug\net8.0\FirstAppMaui.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\obj\Debug\net8.0\FirstAppMaui.Core.AssemblyInfoInputs.cache
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\obj\Debug\net8.0\FirstAppMaui.Core.AssemblyInfo.cs
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\obj\Debug\net8.0\FirstAppMaui.Core.csproj.CoreCompileInputs.cache
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\obj\Debug\net8.0\FirstAppMaui.Core.sourcelink.json
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\obj\Debug\net8.0\FirstAppMaui.Core.dll
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\obj\Debug\net8.0\refint\FirstAppMaui.Core.dll
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\obj\Debug\net8.0\FirstAppMaui.Core.pdb
+C:\Users\jorge\source\repos\FirstAppMAUI\FirstAppMaui.Core\obj\Debug\net8.0\ref\FirstAppMaui.Core.dll
