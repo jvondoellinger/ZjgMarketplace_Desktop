@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstAppMAUI.Views.Page.HomePage"
+             xmlns:local="clr-namespace:FirstAppMAUI.Views.Content"
+             Title="Home">
+    <Grid RowDefinitions="Auto,*" ColumnDefinitions="*"
+        VerticalOptions="Start"
+        HorizontalOptions="Center">
+        
+        <local:SearchHeaderView 
+            x:Name="Header"
+            Grid.Row="0"/>
+
+        <ScrollView Orientation="Vertical" Grid.Row="1">
+            <FlexLayout
+                Wrap="Wrap"
+                JustifyContent="Center"
+                AlignItems="Start"
+                BindableLayout.ItemsSource="{Binding Products}"
+                Padding="15">
+
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <local:ProductCardsView
+                            Padding="20"
+                            FlexLayout.Basis="48%" 
+                            FlexLayout.Grow="0"/>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </FlexLayout>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>
