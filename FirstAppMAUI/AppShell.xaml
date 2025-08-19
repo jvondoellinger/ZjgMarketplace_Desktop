@@ -3,8 +3,7 @@
     x:Class="FirstAppMAUI.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local1="clr-namespace:FirstAppMAUI.Views"
-    xmlns:local2="clr-namespace:FirstAppMAUI"
+    xmlns:local="clr-namespace:FirstAppMAUI.Views.Page"
     Shell.FlyoutBehavior="Flyout"
     Title="FirstAppMAUI"
     FlyoutBackgroundColor="LightGray"
@@ -12,12 +11,20 @@
 
     <FlyoutItem Title="Login/Signup">
         <Tab>
-            <ShellContent Title="Login/Signup" ContentTemplate="{DataTemplate local1:LoginPage}"/>
+            <ShellContent 
+                ContentTemplate="{DataTemplate local:LoginPage}"/>
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Home">
         <Tab>
-            <ShellContent x:Name="HomeShellOption" Title="Home" ContentTemplate="{DataTemplate local1:HomePage}"/>
+            <ShellContent
+                ContentTemplate="{DataTemplate local:HomePage}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Temporary Cart">
+        <Tab>
+            <ShellContent
+                ContentTemplate="{DataTemplate local:CartPage}"/>
         </Tab>
     </FlyoutItem>
 </Shell>
