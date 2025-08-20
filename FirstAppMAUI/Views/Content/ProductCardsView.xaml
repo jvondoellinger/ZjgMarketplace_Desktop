@@ -3,59 +3,78 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FirstAppMAUI.Views.Content.ProductCardsView">
 
-    <Frame 
-        x:Name="ProductImageFrameView"
-        CornerRadius="10" 
-        BackgroundColor="LightGray" 
-        HasShadow="True">
-        <VerticalStackLayout Spacing="5">
-            <CollectionView 
-                x:Name="ProductImageCollectionView"
-                ItemsSource="{Binding Paths.Paths}"
-                HeightRequest="150"
-                WidthRequest="150"
-                VerticalScrollBarVisibility="Always">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Image 
-                            x:Name="ProductImageView"
-                            HeightRequest="150" 
-                            WidthRequest="150"
-                            Aspect="AspectFill">
-                            <Image.Source>
-                                <UriImageSource 
-                                    Uri="{Binding .}"
-                                    CachingEnabled="True"
-                                    CacheValidity="1:00:00"/>
-                            </Image.Source>
-                        </Image>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
+    <ScrollView 
+        Orientation="Vertical"
+        HorizontalOptions="Fill">
+        <FlexLayout
+                x:Name="FlexLayoutContainer"
+                Wrap="Wrap"
+                JustifyContent="Center"
+                AlignItems="Center"
+                HorizontalOptions="Center">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <Frame 
+                        x:Name="ProductImageFrameView"
+                        CornerRadius="10" 
+                        BackgroundColor="LightGray" 
+                        HasShadow="True"
+                        Margin="5">
+                        <VerticalStackLayout>
+                            <CollectionView 
+                                    x:Name="ProductImageCollectionView"
+                                    ItemsSource="{Binding Paths.Paths}"
+                                    HeightRequest="130"
+                                    WidthRequest="130"
+                                    VerticalScrollBarVisibility="Never"
+                                    MaximumWidthRequest="130"
+                                    MaximumHeightRequest="130">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Image 
+                                            x:Name="ProductImageView"
+                                            HeightRequest="150" 
+                                            WidthRequest="150"
+                                            Aspect="AspectFill">
+                                            <Image.Source>
+                                                <UriImageSource 
+                                                    Uri="{Binding .}"
+                                                    CachingEnabled="True"
+                                                    CacheValidity="1:00:00"/>
+                                            </Image.Source>
+                                        </Image>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
 
-            <Label
-                x:Name="ProductIdentifierView"
-                Text="{Binding Id}"
-                IsEnabled="False"
-                IsVisible="False"/>
-            <Label 
-                x:Name="ProductTitleView"
-                Text="{Binding Title}"
-                FontSize="16"
-                FontAttributes="Bold"/>
-            <Label
-                x:Name="ProductAmountView"
-                Text="{Binding Amount, StringFormat='Price: {0:C}'}"
-                TextColor="Green"
-                FontSize="14"/>
+                            <Label
+                                x:Name="ProductIdentif
+                                ierView"
+                                Text="{Binding Id}"
+                                IsEnabled="False"
+                                IsVisible="False"/>
+                            <Label 
+                                x:Name="ProductTitleView"
+                                Text="{Binding Title}"
+                                FontSize="16"
+                                FontAttributes="Bold"/>
+                            <Label
+                                x:Name="ProductAmountView"
+                                Text="{Binding Amount, StringFormat='Price: {0:C}'}"
+                                TextColor="Green"
+                                FontSize="14"/>
 
-            <Button 
-                x:Name="AddProductOnCart"
-                Clicked="AddProductOnCart_Clicked"
-                Text="{Binding ButtonText}"
-                Command="{Binding ButtonCommand}"
-                BackgroundColor="Blue"
-                TextColor="White"/>
-        </VerticalStackLayout>
-    </Frame>
+                            <Button 
+                                x:Name="AddProductOnCart"
+                                Text="{Binding ButtonText}"
+                                Command="{Binding ButtonCommand}"
+                                BackgroundColor="Blue"
+                                TextColor="White"/>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </FlexLayout>
+    </ScrollView>
+
 </ContentView>

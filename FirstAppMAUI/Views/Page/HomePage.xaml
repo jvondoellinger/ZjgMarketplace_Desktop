@@ -7,29 +7,17 @@
     <Grid RowDefinitions="Auto,*" ColumnDefinitions="*"
         VerticalOptions="Start"
         HorizontalOptions="Center">
-        
+
         <local:SearchHeaderView 
             x:Name="Header"
             Grid.Row="0"/>
-
-        <ScrollView Orientation="Vertical" Grid.Row="1">
-            <FlexLayout
-                Wrap="Wrap"
-                JustifyContent="Center"
-                AlignItems="Start"
-                BindableLayout.ItemsSource="{Binding Products}"
-                Padding="15">
-
-                <BindableLayout.ItemTemplate>
-                    <DataTemplate>
-                        <local:ProductCardsView
-                            Padding="20"
-                            FlexLayout.Basis="48%" 
-                            FlexLayout.Grow="0"/>
-                    </DataTemplate>
-                </BindableLayout.ItemTemplate>
-            </FlexLayout>
-        </ScrollView>
+        <local:ProductCardsView
+            x:Name="ProductCardsView"
+            ViewModel="{Binding ProductsList}"
+            HorizontalOptions="Fill"
+            Grid.Row="1"
+            FlexLayout.Basis="48%" 
+            FlexLayout.Grow="0"/>
 
     </Grid>
 </ContentPage>

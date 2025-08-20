@@ -5,19 +5,11 @@
              xmlns:local="clr-namespace:FirstAppMAUI.Views.Content"
              Title="Cart">
     <VerticalStackLayout>
-        <ScrollView Orientation="Horizontal">
-            <StackLayout 
-                Orientation="Horizontal"
-                Spacing="15"
-                Padding="15"
-                BindableLayout.ItemsSource="{Binding Products}">
-                <BindableLayout.ItemTemplate>
-                    <DataTemplate>
-                        <local:ProductCardsView x:Name="ProductCardsView"/>
-                    </DataTemplate>
-                </BindableLayout.ItemTemplate>
-            </StackLayout>
-        </ScrollView>
-
+        <Grid>
+            <local:ProductCardsView 
+                x:Name="ProductCardsView"
+                Grid.Row="0"
+                ViewModel="{Binding ProductsList}"/>
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>

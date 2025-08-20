@@ -1,4 +1,6 @@
 using FirstAppMaui.Core.Product.Response;
+using FirstAppMaui.Core.Product.Singleton;
+using FirstAppMAUI.ViewModel.Adapter;
 using FirstAppMAUI.ViewModel.Cards;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
@@ -7,17 +9,23 @@ namespace FirstAppMAUI.Views.Page;
 
 public partial class CartPage : ContentPage
 {
-    public string CardButtonText { get; set; } = "Remove";
-    public ObservableCollection<CartPageViewModel> Products { get; set; } = new ObservableCollection<CartPageViewModel>(CartPageViewModel.Get());
+    //Ta pegando os dados do HOME e pondo no CART...
+    // Talvez ter uma lista children <ProductApiResponse>
+    public ObservableCollection<ProductViewModel> ProductsList { get; set; }
 
     public CartPage()
-    { 
-        InitializeComponent();
-		BindingContext = this;
-	}
-
-    private void CollectionView_Unloaded(object sender, EventArgs e)
     {
-
+        InitializeComponent();
+        LoadCartViewModel();
+        BindingContext = this;
+	}
+    
+    private void LoadCartViewModel()
+    {
+        var cart = ProductCartSingleton.Instance;
+        var factory = CardViewModelFactory.Instance;
+        var models = factory.FactoryCartMVVM(cart.ProductModel, (vm) => ProductsList.Remove(vm));
+        ProductsList = new ObservableCollection<ProductViewModel>(models);
+        OnPropertyChanged(nameof(ProductsList));
     }
 }

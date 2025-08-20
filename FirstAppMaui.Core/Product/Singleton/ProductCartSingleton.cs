@@ -13,12 +13,10 @@ namespace FirstAppMaui.Core.Product.Singleton
 
         public static ProductCartSingleton Instance { get; private set; } = new ProductCartSingleton();
 
-        public List<string> ProductIds { get; private set; } = new List<string>();
+        public List<ProductApiModel> ProductModel { get; init; } = new List<ProductApiModel>();
 
-        public void AddProductId(string productId) {
-            ProductIds.Add(productId);
-            Console.WriteLine(productId);
-        }
-        public void Clear() => ProductIds.Clear();
+        public void Add(ProductApiModel item) => ProductModel.Add(item);
+        public void Remove(ProductApiModel item) => ProductModel.Remove(item);
+
     }
 }

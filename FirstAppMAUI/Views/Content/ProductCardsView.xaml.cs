@@ -1,17 +1,43 @@
-using FirstAppMaui.Core.Product.Singleton;
+using FirstAppMAUI.ViewModel.Cards;
+using System.Collections.ObjectModel;
 
 namespace FirstAppMAUI.Views.Content;
 
 public partial class ProductCardsView : ContentView
 {
-	public ProductCardsView()
+	public static readonly BindableProperty ViewModelProperty = BindableProperty.Create(
+		nameof(ViewModel),
+		typeof(ObservableCollection<ProductViewModel>),
+		typeof(ProductCardsView),
+		new ObservableCollection<ProductViewModel>(),
+		propertyChanged: OnViewModelChanged);
+
+    public ObservableCollection<ProductViewModel> ViewModel
 	{
-		InitializeComponent();
+		get => (ObservableCollection<ProductViewModel>) GetValue(ViewModelProperty);
+		set => SetValue(ViewModelProperty, value);
 	}
 
-    private void AddProductOnCart_Clicked(object sender, EventArgs e)
+    public ProductCardsView()
+	{
+		InitializeComponent();
+        this.FlexLayoutBindableLayoutSetup();
+    }
+
+    private static void OnViewModelChanged(BindableObject bindable, object oldValue, object newValue)
     {
-        var productId = ProductIdentifierView.Text;
-		ProductCartSingleton.Instance.AddProductId(productId);
+        var control = (ProductCardsView)bindable;
+        control.UpdateItemsSource();
+    }
+
+    private void FlexLayoutBindableLayoutSetup()
+	{
+		BindableLayout.SetItemsSource(FlexLayoutContainer, ViewModel);
+	}
+
+    private void UpdateItemsSource()
+    {
+        if (FlexLayoutContainer != null)
+            BindableLayout.SetItemsSource(FlexLayoutContainer, ViewModel);
     }
 }

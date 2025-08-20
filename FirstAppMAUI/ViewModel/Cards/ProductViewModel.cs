@@ -1,15 +1,15 @@
 ﻿using FirstAppMaui.Core.Product.Response;
 using System.ComponentModel;
 using System.Windows.Input;
-using static FirstAppMaui.Core.Product.Response.ProductApiResponse;
+using static FirstAppMaui.Core.Product.Response.ProductApiModel;
 
 namespace FirstAppMAUI.ViewModel.Cards
 {
     public abstract class ProductViewModel : INotifyPropertyChanged
     {
         // Temporary method do test
-
         public ICommand ButtonCommand { get; protected set; }
+        public Action<ProductViewModel>? RemoveAction { get; set; }
         public string ButtonText { get; protected set; }
         public string Id { get; set; }
         public string Title { get; set; }
